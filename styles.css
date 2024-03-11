@@ -166,7 +166,7 @@
 
 }
 
-.founder-right-text{
+.founder-right-text {
     padding: 16px;
     margin-top: 48px;
     font-style: italic;
@@ -174,50 +174,50 @@
     font-weight: 400;
 }
 
-.founder-right-container{
+.founder-right-container {
     padding: 16px;
     margin-bottom: 48px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.founder-image{
+.founder-image {
     width: 90px;
     height: 90px;
 }
 
-.founder-right-container-text{
+.founder-right-container-text {
     display: flex;
     flex-direction: column;
     margin: auto 0;
 }
 
-hr{
+hr {
     max-width: 1200px;
     display: flex;
     margin: auto;
 }
 
-.projects{
+.projects {
     padding-top: 150px;
     max-width: 1440px;
     margin: auto;
 }
 
-.projects-desc{
+.projects-desc {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 110px;
 }
 
-.projects-desc-left{
+.projects-desc-left {
     width: 400px;
     font-weight: 700;
     font-size: 32px;
 }
 
-.projects-desc-right{
+.projects-desc-right {
     width: 500px;
     font-size: 16px;
     display: flex;
@@ -226,7 +226,7 @@ hr{
     font-weight: 400;
 }
 
-.project{
+.project {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -234,31 +234,31 @@ hr{
     margin-bottom: 200px;
 }
 
-.project-image{
+.project-image {
     flex: 1;
     max-width: 735px;
 }
 
-.project-text-container{
+.project-text-container {
     /* width: 340px; */
     flex: 1;
     padding: 0 115px;
 }
 
-.project-title{
+.project-title {
     font-size: 32px;
     margin-bottom: 8px;
 }
 
-.project-text{
+.project-text {
     margin-top: 48px;
 }
 
-.project-link{
+.project-link {
     margin-top: 115px;
 }
 
-.card{
+.card {
     background-color: #fff;
     max-width: 445px;
     padding: 24px;
@@ -270,39 +270,39 @@ hr{
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
-.card-desc{
+.card-desc {
     font-style: italic;
 }
 
-.card-image{
+.card-image {
     width: 46px;
     height: 46px;
     padding-right: 15px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     margin-top: 48px;
 }
 
-.services{
+.services {
     max-width: 1100px;
     margin: auto;
     padding: 100px 12px;
 }
 
-.services-title{
+.services-title {
     max-width: 575px;
     font-size: 32px;
     margin-bottom: 48px;
 }
 
-.services-container{
+.services-container {
     display: flex;
     padding: 0 24px;
 }
 
-.service-title{
+.service-title {
     text-transform: uppercase;
     font-weight: 500;
     line-height: 36px;
@@ -310,9 +310,110 @@ hr{
     margin-bottom: 16px;
 }
 
-.service-text{
+.service-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 48px;
+}
+
+
+.get-started-section {
+    max-width: 1220px;
+    padding-left: 55px;
+    padding-bottom: 65px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    background-color: #fff;
+}
+
+.get-started-title {
+    max-width: 822px;
+    font-size: 60px;
+    margin: 40px 0;
+    font-weight: 700;
+}
+
+.footer {
+    background-image: url("images/FooterBGR.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 235px;
+    /* margin-top: -160px; */
+}
+
+.footer-inner {
+    max-width: 1296px;
+    margin: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container-inner {
+    width: 324px;
+
+}
+
+.footer-container-inner-title {
+    color: rgb(182, 193, 151);
+    margin-top: 50px;
+}
+
+.footer-container-inner-text {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+.footer-container-middle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 113px;
+    margin-bottom: 60px;
+}
+
+.footer-container-inner-title-middle {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list-element {
+    color: rgb(182, 193, 151);
+    margin-bottom: 20px;
+}
+
+.footer-email {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-icon-container {
+    margin-top: 15px;
+}
+
+.footer-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.footer-container-lower {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.footer-copyright-text {
+    color: rgb(182, 193, 151);
 }
