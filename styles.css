@@ -605,6 +605,7 @@ hr {
     .services-title {
         text-align: center;
         margin: auto;
+        font-size: 25px;
     }
 
     .founder-section {
@@ -629,7 +630,7 @@ hr {
     }
 
     .get-started-title {
-        font-size: 40px;
+        font-size: 30px;
         margin: 0;
     }
 
