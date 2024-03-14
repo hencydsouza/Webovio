@@ -253,6 +253,7 @@ hr {
     /* width: 340px; */
     flex: 1;
     padding: 0 115px;
+    padding-top: 100px;
 }
 
 .project-title {
