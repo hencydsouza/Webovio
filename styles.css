@@ -377,6 +377,7 @@ hr {
     background-size: cover;
     padding-top: 235px;
     /* margin-top: -160px; */
+    overflow-x: hidden;
 }
 
 .footer-inner {
